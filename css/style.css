@@ -126,7 +126,7 @@
 }
 
 .header__phones::before {
-  content: url(/assets/icons/phones.png);
+  content: url(../assets/icons/phones.png);
   position: relative;
   top: 1px;
 }
@@ -139,7 +139,7 @@
 }
 
 .header__email::before {
-  content: url(/assets/icons/mail.png);
+  content: url(../assets/icons/mail.png);
   position: relative;
   top: 2px;
 }
@@ -151,7 +151,7 @@
 
 .fullscreen {
   min-height: 100vh;
-  background: url(/assets/images/hand.png) 70% 100%/auto 60% no-repeat, url(/assets/images/bg.png) center/cover;
+  background: url(../assets/images/hand.png) 70% 100%/auto 60% no-repeat, url(../assets/images/bg.png) center/cover;
 }
 
 .fullscreen__body {
@@ -541,12 +541,12 @@
 }
 
 .gallery .slick-arrow.slick-prev {
-  background: url(/assets/icons/arrow-left.png) no-repeat;
+  background: url(../assets/icons/arrow-left.png) no-repeat;
   left: 0%;
 }
 
 .gallery .slick-arrow.slick-next {
-  background: url(/assets/icons/arrow-right.png) no-repeat;
+  background: url(../assets/icons/arrow-right.png) no-repeat;
   right: 0%;
 }
 
@@ -704,7 +704,7 @@
 }
 
 .subscribe__title::before {
-  content: url(/assets/icons/big-mail.png);
+  content: url(../assets/icons/big-mail.png);
   width: 40px;
   height: 40px;
   position: absolute;
@@ -832,7 +832,7 @@
 
 @media only screen and (max-width: 768px) {
   .fullscreen {
-    background: url(assets/images/bg.png) center/cover;
+    background: url(../assets/images/bg.png) center/cover;
   }
   .fullscreen__body {
     text-align: center;
